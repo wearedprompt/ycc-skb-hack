@@ -1,19 +1,19 @@
 {
-  "name": "ycc-skb-hack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wearedprompt/ycc-skb-hack.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wearedprompt/ycc-skb-hack/issues"
-  },
-  "homepage": "https://github.com/wearedprompt/ycc-skb-hack#readme"
+    "name": "ycc-skb-hack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wearedprompt/ycc-skb-hack.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wearedprompt/ycc-skb-hack/issues"
+    },
+    "homepage": "https://github.com/wearedprompt/ycc-skb-hack#readme"
 }
