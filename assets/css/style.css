@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 body {
     font-family: 'Kanit', sans-serif;
-    background-image:-moz-linear-gradient( -90deg, rgb(37,34,113) 0%, rgb(142,99,50) 100%);
-	background-image: -webkit-linear-gradient( -90deg, rgb(37,34,113) 0%, rgb(142,99,50) 100%);
-    background-image: -ms-linear-gradient( -90deg, rgb(37,34,113) 0%, rgb(142,99,50) 100%);
-    background-attachment:fixed;
+    background-image: -moz-linear-gradient( -90deg, rgb(37, 34, 113) 0%, rgb(142, 99, 50) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(37, 34, 113) 0%, rgb(142, 99, 50) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(37, 34, 113) 0%, rgb(142, 99, 50) 100%);
+    background-attachment: fixed;
 }
-.colour{
-    color: black;}
 
-    
+.colour {
+    color: black;
 }
+
 .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
+
 .scrolling-wrapper.card {
     display: inline-block;
 }
