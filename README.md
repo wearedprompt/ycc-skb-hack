@@ -7,14 +7,15 @@
 ## Page
 - Student
     - [ ] Login (Optional)
-    - Home for Student
-    - My Request
-    - Request Form
-    - Request Review
-    - Request Confirm
+    - [x] Home for Student
+    - [x] My Request
+    - [x] Request Form
+    - [ ] Request Review
+    - [x] Request Confirm
+    - [x] Student Profile
 - Teacher
-    - Login (Optional)
-    - Home for Teacher
-    - Request Detail
+    - [ ] Login (Optional)
+    - [x] Home for Teacher
+    - [x] Request Detail
 
 ## 
