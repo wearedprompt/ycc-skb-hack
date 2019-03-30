@@ -20,22 +20,15 @@
 
 ## Page
 
-For Student
-
-| Page | Wireframe | CSS Design | Finale | Remark |
+| For | Page | Wireframe | CSS Design | Finale | Remark |
 |-----|------|-----------|------------|--------|---|
-|Login|  |  |  | Optional |
-|Home| OK |  |  |  |
-|My Request| OK |  |  |  |
-|Request Form| OK |  |  |  |
-|Request Review| OK |  |  |  |
-|Request Confirm| OK |  |  |  |
-|Profile|  |  |  |  |
-
-For Teacher
-
-| Page | Wireframe | CSS Design | Finale | Remark |
-|-----|------|-----------|------------|--------|---|
-|Login|  |  |  | Optional |
-|Home| OK |  |  |  |
-|Request Detail| OK |  |  |  |
+|Student|Login|  |  |  | Optional |
+|Student|Home| OK |  |  |  |
+|Student|My Request| OK |  |  |  |
+|Student|Request Form| OK |  |  |  |
+|Student|Request Review| OK |  |  |  |
+|Student|Request Confirm| OK |  |  |  |
+|Student|Profile|  |  |  |  |
+|Teacher|Login|  |  |  | Optional |
+|Teacher|Home| OK |  |  |  |
+|Teacher|Request Detail| OK |  |  |  |
