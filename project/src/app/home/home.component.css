@@ -37,3 +37,8 @@ body {
     height: 100%;
     width: auto;
 }
+
+.formname {
+    margin-left: auto;
+    margin-right: auto;
+}
