@@ -29,16 +29,18 @@
             display: inline-block;
         }
         
-        .image-cropper {
-            width: 100px;
-            height: 100px;
+        .profile-img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+            height: 150px;
             position: relative;
             overflow: hidden;
             border-radius: 50%;
         }
         
-        img {
-            display: inline;
+        .profile-img img {
+            display: flex;
             margin: 0 auto;
             height: 100%;
             width: auto;
@@ -73,10 +75,9 @@
     <!-- Navigation End Here -->
     <div class="container">
         <div class="row mt-5">
-            <div class="col-5">
-                <div class="image-cropper">
-                    <img src="assets/images/profile.jpg" class="rounded" />
-                </div>
+            <!-- Profile Image -->
+            <div class="profile-img">
+                <img src="assets/images/profile.jpg" class="rounded" />
             </div>
         </div>
     </div>
