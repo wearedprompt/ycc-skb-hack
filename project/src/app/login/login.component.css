@@ -1,5 +1,8 @@
 .container {
+    text-align: center!important;
+}
+
+.loginfield {
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
