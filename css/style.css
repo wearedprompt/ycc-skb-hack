@@ -1,0 +1,15 @@
+/* IMPORT FONT == (KANIT => heading) (Sarabun => text)  */
+
+@import url('https://fonts.googleapis.com/css?family=Kanit|Sarabun');
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif;
+}
