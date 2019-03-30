@@ -32,7 +32,7 @@ For Student
 |Request Confirm| OK |  |  |  |
 |Profile|  |  |  |  |
 
-2. For Teacher
+For Teacher
 
 | Page | Wireframe | CSS Design | Finale | Remark |
 |-----|------|-----------|------------|--------|---|
