@@ -4,15 +4,15 @@
         <title>ycc</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
         <!-- Optional CSS -->
         <link rel="stylesheet" href="css/style.css">
-    
+        <link rel="stylesheet" href="css/form.css">
         <!-- Optional JavaScript -->
-    
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -21,30 +21,28 @@
       <style>
           button{
             background-color:darkblue;
-              border:black thin;
-              color:white;
-              float: right;
               margin-right:130px;
               margin-top:50px;
-              width:130px;
-              height:40px;
           }
-   
+
         </style>
     </head>
     <body>
           <div style="margin-top:100px;
                     margin-left:100px">
               <h3>แบบฟอร์มใบคำร้องขอใบปพ.1</h3>
-              <p style="margin-top:40px">สาเหตุที่ต้องการขอ</p> 
-             
               <!--<input type="text" style="margin-top:10px; height: 100px; width: 800px;">!-->
-              <textarea style="height:100px; width:1150px;"> </textarea>
-              <p style="margin-top:40px";>จำนวน</p>
-              <input type="number" style="height:40px;">
-              <button>Next</button>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1" style="margin-top: 40px">สาเหตุที่ต้องการขอ</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="width: 900px"></textarea>
+              </div><br>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">จำนวน</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" style="width: 900px">
+              </div>
+              <button type="button" class="btn btn-lg btn-block" style="width: 900px; background-color: #41485b; color: #FFF">Next</button>
 
-          </div>  
-                  
+          </div>
+
     </body>
 </html>
