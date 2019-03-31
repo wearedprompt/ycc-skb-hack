@@ -3,7 +3,7 @@
 
 <head>
     <!-- Title -->
-    <title>Student Profile</title>
+    <title>รายละเอียดคำร้อง | School Doc</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
 
     <!-- Optional CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stuprofile.css">
+    <link rel="stylesheet" href="css/rqdetail.css">
 
     <!-- Optional JavaScript -->
 
@@ -24,91 +24,89 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-<body style="margin-top:20px; background-image: url(moodboard1-10.jpg)">
-    <div class="container">
+<body>
+    <div class="container" style="margin-top:20px; ">
         <!-- Title -->
         <div class="row">
-            <h1>ข้อมูลนักเรียน</h1>
+            <h1>รายละเอียดคำร้อง</h1>
         </div>
         <!-- Name & IMG Section -->
-        <div class="row" style="background-color:#41485b; color: white;" >
-            <div class="col-3 border">
-                <img src="" alt="">
+        <div class="row" style="background-color:#41485b; color: white;">
+            <div class="col-3 ">
+                <img src="assets/ไอคอนทะเบียน-01.jpg" alt="" style="width: 80%; margin:20px 20px 20px 20px; border-radius:5px;">
             </div>
-            <div class="col-9 border pt-5 pb-5">
+            <div class="col-9 pt-5 pb-5">
                 <h2>นายเรียนเก่ง มีสติ</h2>
                 <h4>ชั้นมัธยมศึกษาปีที่ 6/7 เลขที่ 12</h4>
-                <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%; background-color: #c59968; border-color:#a8a9ad;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                      </div>
+
             </div>
 
         </div>
     </div>
-    <div class="container profilewrap" style="background-color:#c59968; ">
+    <div class="container profilewrap" style="background-color:#c59968;  ">
         <form>
-            <div class="form-row" >
-                <div class="col" >
-                    <h5 class="ml-3">ข้อมูลนักเรียน</h5>
+            <div class="form-row">
+                <div class="col" style="margin-top:20px;">
+                    <h5 class="ml-3">รายละเอียดคำร้อง</h5>
                     <div class="form-group row">
                         <label for="stuid" class="col-sm-3 col-form-label ml-3">เลขประจำตัว :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="stuid" placeholder="เลขประจำตัว" readonly>
+                            <input type="text" class="form-control-plaintext" id="stuid" placeholder="เลขประจำตัว" value="12345" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="name" class="col-sm-3 col-form-label ml-3">ชื่อ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="name" placeholder="ชื่อ สกุล" readonly>
+                            <input type="text" class="form-control-plaintext" id="name" placeholder="ชื่อ สกุล" value="นายเรียนเก่ง มีสติ" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="class" class="col-sm-3 col-form-label ml-3">ชั้น :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="class" placeholder="ชั้น" readonly>
+                            <input type="text" class="form-control-plaintext" id="class" placeholder="ชั้น" value="ม.6/7" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="dob" class="col-sm-3 col-form-label ml-3">วันเดือนปีเกิด:</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="dob" placeholder="วันเดือนปีเกิด" readonly>
+                            <input type="text" class="form-control-plaintext" id="dob" placeholder="วันเดือนปีเกิด" value="23 พฤษภาคม 2544" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="fathername" class="col-sm-3 col-form-label ml-3">ชื่อบิดา :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="fathername" placeholder="ชื่อบิดา" readonly>
+                            <input type="text" class="form-control-plaintext" id="fathername" placeholder="ชื่อบิดา" value="พล.อ.ปลาหยุด อังคารก็โอ" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="mothername" class="col-sm-3 col-form-label ml-3">ชื่อมารดา :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="mothername" placeholder="ชื่อมารดา" readonly>
+                            <input type="text" class="form-control-plaintext" id="mothername" placeholder="ชื่อมารดา" value="นางปลาคณิค อังคารก็โอ" readonly>
                         </div>
                     </div><br><br>
                     <h5 class="ml-3">ข้อมูลติดต่อ</h5>
                     <div class="form-group row">
                         <label for="telno" class="col-sm-3 col-form-label ml-3">เบอร์โทรศัพท์ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="telno" placeholder="เบอร์โทรศัพท์" readonly>
+                            <input type="text" class="form-control-plaintext" id="telno" placeholder="เบอร์โทรศัพท์" value="09x-xxx-xxxx" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="address" class="col-sm-3 col-form-label ml-3">ที่อยู่ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control-plaintext" id="address" placeholder="ที่อยู่" readonly>
+                            <input type="text" class="form-control-plaintext" id="address" placeholder="ที่อยู่" value="1 ถ.เพชรบุรี แขวงท่าโฉลม กรุงเทพฯ 10241" readonly>
                         </div>
                     </div>
                 </div><br><br>
                 <div class="col">
                     <h5 style="color: #FFF">เอกสารที่นักเรียนต้องการขอ</h5>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control-plaintext" id="rqdoc" placeholder="เอกสารที่ขอ" readonly>
+                        <input type="text" class="form-control-plaintext" id="rqdoc" placeholder="เอกสารที่ขอ" value="ใบผลการเรียน ปพ.1" readonly>
                     </div>
 
-                    <h5 class="mt-2">วันที่ขอเอกสาร(วัน/เดือน/ปี)</h5>
+                    <h5 class="mt-2">วันที่ขอเอกสาร</h5>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control-plaintext" id="rqdocdate" placeholder="วันที่ขอเอกสาร" readonly>
+                        <input type="text" class="form-control-plaintext" id="rqdocdate" placeholder="วันที่ขอเอกสาร" value="17 มีนาคม 2562" readonly>
                     </div>
 
                     <fieldset class="form-group">
@@ -144,9 +142,10 @@
                             </div>
                         </div>
                     </fieldset>
-                    <button type="button" class="btn btn-success" style="margin-left:400px; background-color:#41485b; border:none;">ยืนยัน</button>
+                    <button type="button" class="btn btn-success" style="margin-left:350px; width:100px; margin-bottom:20px; background-color:#41485b; border:none;">ยืนยัน</button>
                 </div>
             </div>
+
         </form>
     </div>
 
