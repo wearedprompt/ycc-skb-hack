@@ -13,7 +13,7 @@
 |Student|My Request| OK |  |  |  |
 |Student|Request Form| OK |  |  |  |
 |Student|Request Review| OK |  |  |  |
-|Student|Request Confirm| OK |  |  |  |
+|Student|Request Confirm| OK |  |  | https://ycc-skb-hackathon.netlify.com/confirmed.html |
 |Student|Profile|  |  |  |  |
 |Teacher|Login|  |  |  | Optional |
 |Teacher|Home| OK |  |  |  |
