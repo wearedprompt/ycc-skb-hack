@@ -1,14 +1,13 @@
 body {
-  background-image: url('../assets/โฮมครู.jpg');
-  background-size: cover;
-  text-align: left;
-
+    background-image: url('../assets/โฮมครู.jpg');
+    background-size: cover;
+    text-align: left;
 }
 
 h1 {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 .card {
-  width: 1000px;
+    width: 1000px;
 }
