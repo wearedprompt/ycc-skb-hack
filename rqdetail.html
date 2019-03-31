@@ -49,61 +49,102 @@
                     <div class="form-group row">
                         <label for="stuid" class="col-sm-3 col-form-label ml-3">เลขประจำตัว :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="stuid" readonly placeholder="เลขประจำตัว">
+                            <input type="text" class="form-control-plaintext" id="stuid" placeholder="เลขประจำตัว" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="name" class="col-sm-3 col-form-label ml-3">ชื่อ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="name" readonly placeholder="ชื่อ สกุล">
+                            <input type="text" class="form-control-plaintext" id="name" placeholder="ชื่อ สกุล" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="class" class="col-sm-3 col-form-label ml-3">ชั้น :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="class" readonly placeholder="ชั้น">
+                            <input type="text" class="form-control-plaintext" id="class" placeholder="ชั้น" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="dob" class="col-sm-3 col-form-label ml-3">วันเดือนปีเกิด:</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="dob" readonly placeholder="วันเดือนปีเกิด">
+                            <input type="text" class="form-control-plaintext" id="dob" placeholder="วันเดือนปีเกิด" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="fathername" class="col-sm-3 col-form-label ml-3">ชื่อบิดา :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="fathername" readonly placeholder="ชื่อบิดา">
+                            <input type="text" class="form-control-plaintext" id="fathername" placeholder="ชื่อบิดา" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="mothername" class="col-sm-3 col-form-label ml-3">ชื่อมารดา :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="mothername" readonly placeholder="ชื่อมารดา">
+                            <input type="text" class="form-control-plaintext" id="mothername" placeholder="ชื่อมารดา" readonly>
                         </div>
                     </div>
-                </div>
-                <div class="col">
                     <h5 class="ml-3">ข้อมูลติดต่อ</h5>
                     <div class="form-group row">
                         <label for="telno" class="col-sm-3 col-form-label ml-3">เบอร์โทรศัพท์ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="telno" readonly placeholder="เบอร์โทรศัพท์">
+                            <input type="text" class="form-control-plaintext" id="telno" placeholder="เบอร์โทรศัพท์" readonly>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="address" class="col-sm-3 col-form-label ml-3">ที่อยู่ :</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" id="address" readonly placeholder="ที่อยู่">
+                            <input type="text" class="form-control-plaintext" id="address" placeholder="ที่อยู่" readonly>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <h5>เอกสารที่นักเรียนต้องการขอ</h5>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control-plaintext" id="rqdoc" placeholder="เอกสารที่ขอ" readonly>
+                    </div>
+
+                    <h5 class="mt-2">วันที่ขอเอกสาร(วัน/เดือน/ปี)</h5>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control-plaintext" id="rqdocdate" placeholder="วันที่ขอเอกสาร" readonly>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <h5 class="mt-2">ความเห็นนายทะเบียน</h5>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="registarapproval" id="regisapprove" value="rapp">
+                                    <label class="form-check-label" for="regisapprove">เห็นควรดำเนินการ</label>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="registarapproval" id="regisdisapprove" value="rdisapp">
+                                    <label class="form-check-label" for="regisdisapprove">ไม่ควรดำเนินการ เนื่องจาก</label>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" id="regisdisappcause" rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <h5 class="mt-1">คำสั่งผู้อำนวยการโรงเรียน</h5>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="drtapproval" id="drtapprove" value="rapp">
+                                    <label class="form-check-label" for="drtapprove">อนุญาต</label>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="drtapproval" id="drtdisapprove" value="rdisapp">
+                                    <label class="form-check-label" for="drtdisapprove">ไม่อนุญาต</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
             </div>
             <div class="row">
-                <div class="col-8 text-center" style="margin: auto;">
-                    <div class="alert alert-warning" role="alert">
-                        ถ้าต้องการแก้ไขข้อมูลต่าง ๆ ในหน้านี้ กรุณาติดต่อห้องทะเบียน
-                    </div>
+                <div class="col-4" style="margin: auto;">
+                    <button type="button" class="btn btn-success" style="width: 100%;">Submit</button>
                 </div>
             </div>
         </form>
