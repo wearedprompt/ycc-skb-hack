@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: #F9F2F0;
+  background-image: url("assets/homedecor.jpg");
+  background-size: cover;
 }
 
 .carousel-inner img {
