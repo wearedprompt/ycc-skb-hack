@@ -10,7 +10,7 @@
 body {
     background-image: url(../assets/สถานะ.png);
     background-attachment: fixed;
-    background-position: 100px left;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
 }
