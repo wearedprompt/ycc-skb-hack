@@ -1,12 +1,45 @@
 /* IMPORT FONT == (KANIT => heading) (Sarabun => text)  */
 
 @import url('https://fonts.googleapis.com/css?family=Kanit|Sarabun');
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*--- Customized Scrollbar ---*/
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: none
+}
+
+@media only screen and (min-width: 768px) {
+    .table-responsive::-webkit-scrollbar {
+        display: none
+    }
+}
+
 body {
     font-family: 'Sarabun', sans-serif;
 }
 
 button {
-  font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 h1,
