@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Student Profile</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Optional CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stuprofile.css">
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <h1>ข้อมูลนักเรียน</h1>
+        </div>
+        <!-- Name & IMG Section -->
+        <div class="row">
+            <div class="col-3 border">
+                <img src="" alt="">
+            </div>
+            <div class="col-9 border pt-5 pb-5">
+                <h2>นายเรียนเก่ง มีสติ</h2>
+                <h4>ชั้นมัธยมศึกษาปีที่ 6/7 เลขที่ 12</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container profilewrap">
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <h5 class="ml-3">ข้อมูลนักเรียน</h5>
+                    <div class="form-group row">
+                        <label for="stuid" class="col-sm-3 col-form-label ml-3">เลขประจำตัว :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="stuid" placeholder="เลขประจำตัว" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-3 col-form-label ml-3">ชื่อ :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="name" placeholder="ชื่อ สกุล" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="class" class="col-sm-3 col-form-label ml-3">ชั้น :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="class" placeholder="ชั้น" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="dob" class="col-sm-3 col-form-label ml-3">วันเดือนปีเกิด:</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="dob" placeholder="วันเดือนปีเกิด" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="fathername" class="col-sm-3 col-form-label ml-3">ชื่อบิดา :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="fathername" placeholder="ชื่อบิดา" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="mothername" class="col-sm-3 col-form-label ml-3">ชื่อมารดา :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="mothername" placeholder="ชื่อมารดา" readonly>
+                        </div>
+                    </div>
+                    <h5 class="ml-3">ข้อมูลติดต่อ</h5>
+                    <div class="form-group row">
+                        <label for="telno" class="col-sm-3 col-form-label ml-3">เบอร์โทรศัพท์ :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="telno" placeholder="เบอร์โทรศัพท์" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="address" class="col-sm-3 col-form-label ml-3">ที่อยู่ :</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control-plaintext" id="address" placeholder="ที่อยู่" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h5>เอกสารที่นักเรียนต้องการขอ</h5>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control-plaintext" id="rqdoc" placeholder="เอกสารที่ขอ" readonly>
+                    </div>
+
+                    <h5 class="mt-2">วันที่ขอเอกสาร(วัน/เดือน/ปี)</h5>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control-plaintext" id="rqdocdate" placeholder="วันที่ขอเอกสาร" readonly>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <h5 class="mt-2">ความเห็นนายทะเบียน</h5>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="registarapproval" id="regisapprove" value="rapp">
+                                    <label class="form-check-label" for="regisapprove">เห็นควรดำเนินการ</label>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="registarapproval" id="regisdisapprove" value="rdisapp">
+                                    <label class="form-check-label" for="regisdisapprove">ไม่ควรดำเนินการ เนื่องจาก</label>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control" id="regisdisappcause" rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <h5 class="mt-1">คำสั่งผู้อำนวยการโรงเรียน</h5>
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="drtapproval" id="drtapprove" value="rapp">
+                                    <label class="form-check-label" for="drtapprove">อนุญาต</label>
+                                </div>
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="drtapproval" id="drtdisapprove" value="rdisapp">
+                                    <label class="form-check-label" for="drtdisapprove">ไม่อนุญาต</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="margin: auto;">
+                    <button type="button" class="btn btn-success" style="width: 100%;">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
