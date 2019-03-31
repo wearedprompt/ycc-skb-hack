@@ -1,14 +1,15 @@
 body {
-  text-align: center;
-  background-image: url("assets/homedecor.jpg");
-  background-size: cover;
+    text-align: center;
+    background-image: url("../assets/homedecor.jpg");
+    background-size: cover;
 }
 
 .carousel-inner img {
-  margin: auto;
+    margin: auto;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     height: 100px;
     width: 100px;
     outline: black;
