@@ -1,0 +1,11 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/VLinebg.png), url(../assets/VLinebg.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.confirmed {
+    width: 100%;
+}
